@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "7965fb71-b783-41c2-aa37-784da7d97b66",
+		"name": "Ranjeet_yadav_postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46345116",
+		"_collection_link": "https://ranjeetyadav-9998387.postman.co/workspace/Ranjeet-yadav's-Workspace~1f96c832-9d81-4611-84c5-df9207715314/collection/46345116-7965fb71-b783-41c2-aa37-784da7d97b66?action=share&source=collection_link&creator=46345116"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000//api/forms/wheel-specifications/?formNumber=WHEEL-2025-001&submittedBy=user_id_123&submittedDate=2025-07-03",
+			"protocolProfileBehavior": {
+				"protocolVersion": "http1",
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/forms/wheel-specifications/?formNumber=WHEEL-2025-001&submittedBy=user_id_123&submittedDate=2025-07-03",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"",
+						"api",
+						"forms",
+						"wheel-specifications",
+						""
+					],
+					"query": [
+						{
+							"key": "formNumber",
+							"value": "WHEEL-2025-001"
+						},
+						{
+							"key": "submittedBy",
+							"value": "user_id_123"
+						},
+						{
+							"key": "submittedDate",
+							"value": "2025-07-03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/forms/wheel-specifications",
+			"protocolProfileBehavior": {
+				"protocolVersion": "http1"
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"formNumber\": \"WHEEL-2025-001\",\n  \"submittedBy\": \"user_id_123\",\n  \"submittedDate\": \"2025-07-03\",\n  \"fields\": {\n    \"treadDiameterNew\": \"915 (900-1000)\",\n    \"lastShopIssueSize\": \"837 (800-900)\",\n    \"condemningDia\": \"825 (800-900)\",\n    \"wheelGauge\": \"1600 (+2,-1)\"\n  }\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/forms/wheel-specifications",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"forms",
+						"wheel-specifications"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

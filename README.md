@@ -24,6 +24,7 @@ Two APIs were implemented using Django REST Framework and connected to a Postgre
 1. Clone the Repository
    
    git clone https://github.com/ranjeet3345/sarva_suvidha_kpa_backend/
+   
    cd sarva_suvidha_kpa_backend/   
 
 

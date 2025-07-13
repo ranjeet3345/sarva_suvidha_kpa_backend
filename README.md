@@ -7,7 +7,7 @@
 This project is a backend API implementation task based on the provided Postman Collection and SwaggerHub documentation for [KPA Form Data](https://app.swaggerhub.com/apis/sarvasuvidhaen/kpa-form_data/1.0.0).  
 Two APIs were implemented using Django REST Framework and connected to a PostgreSQL database.
 
----
+
 
 ##  Technologies Used
 
@@ -18,14 +18,13 @@ Two APIs were implemented using Django REST Framework and connected to a Postgre
 - Postman (for API testing)
 - Swagger (for API documentation reference)
 
----
 
 ## 🔧 Setup Instructions
 
 1. Clone the Repository
    
    git clone https://github.com/ranjeet3345/sarva_suvidha_kpa_backend/
-   
+   cd sarva_suvidha_kpa_backend/   
 
 
 

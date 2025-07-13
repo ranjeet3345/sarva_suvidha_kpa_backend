@@ -24,7 +24,7 @@ Two APIs were implemented using Django REST Framework** and connected to a Postg
 
 1. Clone the Repository
    
-   git clone https://github.com/ranjeet3345/sarva_suvidha_kpa_backend/tree/main
+   git clone https://github.com/ranjeet3345/sarva_suvidha_kpa_backend/
    cd sarva_suvidha_kpa_backend
 
 
@@ -78,3 +78,7 @@ python manage.py migrate
 6) Run the server
 
 python manage.py runserver
+
+
+7)implemented:
+  a)POST
